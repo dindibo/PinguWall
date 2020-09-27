@@ -4,6 +4,7 @@ import random
 from bidict import bidict
 
 class endpoint:
+
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
